@@ -1,35 +1,39 @@
-# Alert Button Toolbar (React)
+# Dynamic Toolbar Assignment (React + Vite)
 
 ## Project Description
-This project is a React application built using Vite. It demonstrates how to create reusable components using props, including the children prop, and how to handle events using onClick handlers.
+This project is a React application built using Vite. It demonstrates how to dynamically render components using JavaScript’s `.map()` function and how to pass data through props.
 
-The application includes a Toolbar component that contains multiple AlertButton components. Each button displays a unique alert message when clicked.
+The application features a reusable `AlertButton` component that is rendered multiple times inside a `Toolbar` component based on an array of data. Each button displays a unique alert message when clicked.
 
-## Features
-- Reusable React components
-- Props for passing data between components
-- Use of the children prop
-- Event handling with onClick
-- Multiple buttons with different behaviors
+---
+
+## Key Concepts Demonstrated
+- Dynamic rendering using `.map()`
+- Passing props between components
+- Using the `children` prop
+- Handling events with `onClick`
+- Using the `key` prop when rendering lists
+
+---
 
 ## Technologies Used
 - React
 - Vite
-- JavaScript
-- HTML/CSS
+- JavaScript (ES6+)
+- HTML / CSS
+
+---
 
 ## How to Run the Project
 
-1. Clone the repository
-
+1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/alert-button-toolbar.git
-```
+git clone https://github.com/YOUR-USERNAME/dynamic-toolbar-assignment.git
 
 2. Navigate to the project folder
 
 ```bash
-cd alert-button-toolbar
+cd dynamic-toolbar-assignment
 ```
 
 3. Install dependencies 
@@ -48,4 +52,3 @@ npm run dev
 http://localhost:5173
 
 ## Youtube
-https://youtu.be/wTaTVc5Ik5Y
