@@ -52,3 +52,4 @@ npm run dev
 http://localhost:5173
 
 ## Youtube
+https://youtu.be/1yxCt6mPiTg
